@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101f35">
+  <meta name="description" content="La proposta di architettura digitale dell'IIS Severi-Correnti: un'unica governance per Google Workspace, Microsoft 365, Spaggiari e SIDI.">
+  <meta property="og:title" content="Ecosistema digitale | IIS Severi-Correnti">
+  <meta property="og:description" content="Una scuola, due ambienti, un'unica regia. La proposta del team digitale raccontata in una pagina.">
+  <meta property="og:type" content="website">
+  <title>Ecosistema digitale — IIS Severi-Correnti</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#architettura">Vai all'infografica</a>
+<header class="site-header">
+  <div class="shell topbar">
+    <a class="brand" href="#inizio" aria-label="Ecosistema digitale, torna all'inizio">
+      <span class="brand-mark" aria-hidden="true"><span>S</span><span>C</span></span>
+      <span class="brand-type"><strong>Ecosistema digitale</strong><span>IIS Severi-Correnti</span></span>
+    </a>
+    <nav class="header-links" aria-label="Navigazione principale">
+      <a href="#architettura">Architettura</a>
+      <a href="#processo">Processo</a>
+      <a class="nav-repo" href="https://github.com/IIS-Severi-Correnti/ecosistema-digitale" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="inizio">
+  <section class="hero shell" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Una visione condivisa per la scuola</div>
+      <h1 id="hero-title">Una scuola.<br><span>Due ambienti.</span><br>Un'unica regia.</h1>
+      <p class="hero-lead">Le segreterie certificano <strong>chi fa parte della scuola</strong>. Un processo controllato gestisce identità e accessi. Google serve la didattica, Microsoft gli uffici.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#architettura">Esplora lo schema <span aria-hidden="true">↓</span></a>
+        <button class="button button-subtle" type="button" id="print-page">Stampa la pagina <span aria-hidden="true">↗</span></button>
+      </div>
+      <p class="status-note"><span class="status-indicator" aria-hidden="true"></span><strong>Scenario proposto</strong> · non ancora approvato né implementato · aggiornato al 12 ottobre 2026</p>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <div class="visual-node visual-top"><span class="visual-small">DATI AFFIDABILI</span><span>Segreterie</span></div>
+      <div class="visual-stem"></div>
+      <div class="visual-center"><span class="visual-center-icon">◎</span><strong>Un'unica<br>governance</strong><small>account · ruoli · sicurezza</small></div>
+      <div class="visual-split"></div>
+      <div class="visual-bottom"><div><span class="orb orb-blue"></span>Didattica</div><div><span class="orb orb-teal"></span>Uffici</div></div>
+      <span class="visual-label label-left">SEMPLICITÀ</span><span class="visual-label label-right">CONTROLLO</span>
+    </div>
+  </section>
+
+  <div class="shell key-strip" role="list" aria-label="I principi dell'architettura">
+    <div role="listitem"><span class="key-number">01</span><span><strong>Una fonte amministrativa</strong><small>Spaggiari e SIDI, dati validati</small></span></div>
+    <div role="listitem"><span class="key-number">02</span><span><strong>Un ciclo di vita</strong><small>Ingresso, cambiamenti, uscita</small></span></div>
+    <div role="listitem"><span class="key-number">03</span><span><strong>Due ambienti mirati</strong><small>Il software giusto al posto giusto</small></span></div>
+  </div>
+
+  <section class="architecture-section" id="architettura" aria-labelledby="architecture-title">
+    <div class="shell">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">L'ARCHITETTURA IN UN COLPO D'OCCHIO</p>
+          <h2 id="architecture-title">Dal dato amministrativo al lavoro quotidiano.</h2>
+          <p>La scuola mantiene il controllo delle identità; le piattaforme diventano strumenti al servizio di persone e attività.</p>
+        </div>
+        <div class="diagram-key" aria-label="Legenda"><span class="legend-dot source-color"></span> Fonti <span class="legend-dot governance-color"></span> Regia <span class="legend-dot service-color"></span> Servizi</div>
+      </div>
+
+      <div class="diagram" aria-label="Schema a livelli: segreterie e dati amministrativi, governance delle identità, ambienti Google e Microsoft, servizi comuni">
+        <div class="step-caption"><span class="step-index">01</span><span>DA DOVE ARRIVANO I DATI</span></div>
+        <div class="source-row">
+          <div class="source-card">
+            <div class="card-topline"><span class="symbol symbol-source" aria-hidden="true">▦</span><span class="tiny-label">GESTIONE OPERATIVA</span></div>
+            <h3>Spaggiari</h3>
+            <p>Iscrizioni, classi e rapporti amministrativi, secondo i moduli effettivamente disponibili.</p>
+          </div>
+          <div class="source-card">
+            <div class="card-topline"><span class="symbol symbol-source" aria-hidden="true">▤</span><span class="tiny-label">DATI MINISTERIALI</span></div>
+            <h3>SIDI</h3>
+            <p>Informazioni istituzionali di riferimento, da verificare con le segreterie competenti.</p>
+          </div>
+        </div>
+        <div class="flow-connector" aria-hidden="true"><span>↓</span><strong>Dati minimi, validati dalla segreteria</strong></div>
+
+        <div class="step-caption"><span class="step-index">02</span><span>CHI DECIDE E CONTROLLA</span></div>
+        <div class="governance-card">
+          <div class="governance-overview">
+            <div class="governance-emblem" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="1.6"/><circle cx="20" cy="20" r="5" fill="currentColor"/><path d="M20 4v8m0 16v8M4 20h8m16 0h8" stroke="currentColor" stroke-width="1.6"/></svg>
+            </div>
+            <div><span class="overline">IL CUORE DEL SISTEMA</span><h3>Gestione delle identità</h3><p>Un processo unico, verificabile e reversibile: non una nuova anagrafica da compilare a mano.</p></div>
+          </div>
+          <div class="governance-stages" role="list" aria-label="Fasi del controllo">
+            <div role="listitem"><span>01</span><strong>Confronta</strong><small>anagrafiche e account</small></div>
+            <div role="listitem"><span>02</span><strong>Verifica</strong><small>eccezioni e autorizzazioni</small></div>
+            <div role="listitem"><span>03</span><strong>Aggiorna</strong><small>ruoli e accessi</small></div>
+            <div role="listitem"><span>04</span><strong>Traccia</strong><small>modifiche e controlli</small></div>
+          </div>
+        </div>
+        <div class="flow-connector split-arrow" aria-hidden="true"><span>↓</span><strong>Identità e permessi necessari</strong></div>
+
+        <div class="step-caption"><span class="step-index">03</span><span>GLI AMBIENTI DI LAVORO</span></div>
+        <div class="service-grid">
+          <article class="platform-card card-google">
+            <div class="platform-top">
+              <span class="platform-icon google-icon" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+              <span class="platform-meta">AMBIENTE DIDATTICO</span>
+            </div>
+            <h3>Google Workspace</h3>
+            <p class="platform-audience">Studenti e docenti</p>
+            <div class="tag-list" aria-label="Applicazioni per la didattica"><span>Gmail</span><span>Classroom</span><span>Drive</span><span>Meet</span></div>
+            <div class="platform-divider"></div>
+            <p class="platform-label">DISPOSITIVI CANDIDATI</p>
+            <p class="platform-devices">ChromeOS Flex · Linux<br>Browser sui PC specialistici Windows</p>
+          </article>
+          <article class="platform-card card-microsoft">
+            <div class="platform-top">
+              <span class="platform-icon ms-icon" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+              <span class="platform-meta">AMBIENTE AMMINISTRATIVO</span>
+            </div>
+            <h3>Microsoft 365 + Entra</h3>
+            <p class="platform-audience">Segreterie e dirigenza</p>
+            <div class="tag-list" aria-label="Applicazioni per l'amministrazione"><span>Outlook</span><span>Exchange</span><span>Office</span><span>Entra ID</span></div>
+            <div class="platform-divider"></div>
+            <p class="platform-label">DISPOSITIVI CANDIDATI</p>
+            <p class="platform-devices">Windows negli uffici<br>Windows nei laboratori che lo richiedono</p>
+          </article>
+        </div>
+
+        <div class="mail-bridge">
+          <div class="bridge-icon" aria-hidden="true">↔</div>
+          <div><strong>La posta comunica tra i due ambienti</strong><span>Stesso dominio <code>@severi-correnti.edu.it</code> · instradamento Gmail / Exchange da progettare e collaudare</span></div>
+        </div>
+
+        <div class="step-caption common-caption"><span class="step-index">04</span><span>I SERVIZI CHE RESTANO COMUNI</span></div>
+        <div class="common-card">
+          <div class="common-symbol" aria-hidden="true">✦</div>
+          <div><h3>Circolari e comunicazioni ufficiali</h3><p><strong>ClasseViva (Spaggiari)</strong> e <strong>sito istituzionale</strong> rimangono canali distinti dalla posta ordinaria, secondo le procedure della scuola.</p></div>
+          <span class="common-pill">Trasversale</span>
+        </div>
+      </div>
+
+      <div class="safety-line"><span class="safety-shield" aria-hidden="true">✓</span><p><strong>Regola di sicurezza:</strong> nessun account viene cancellato perché manca da un elenco. Prima servono verifica amministrativa, controllo delle dipendenze e una procedura autorizzata.</p></div>
+    </div>
+  </section>
+
+  <section class="process-section shell" id="processo" aria-labelledby="process-title">
+    <div class="section-heading process-heading">
+      <div><p class="section-kicker">MANUTENZIONE ORDINARIA, NON EMERGENZA ANNUALE</p><h2 id="process-title">L'account segue la vita scolastica.</h2><p>La stessa procedura accompagna le persone dall'ingresso all'uscita, senza accumulare utenze dimenticate.</p></div>
+    </div>
+    <div class="lifecycle" role="list">
+      <div class="life-item" role="listitem"><span class="life-number">01</span><span class="life-icon" aria-hidden="true">＋</span><h3>Ingresso</h3><p>Iscrizione o presa di servizio: account e accessi necessari.</p></div>
+      <div class="life-arrow" aria-hidden="true">→</div>
+      <div class="life-item" role="listitem"><span class="life-number">02</span><span class="life-icon" aria-hidden="true">↗</span><h3>Cambiamenti</h3><p>Classe, incarico o proroga: ruoli aggiornati e verificati.</p></div>
+      <div class="life-arrow" aria-hidden="true">→</div>
+      <div class="life-item" role="listitem"><span class="life-number">03</span><span class="life-icon" aria-hidden="true">−</span><h3>Uscita</h3><p>Trasferimento o cessazione: sospensione e gestione dei dati.</p></div>
+    </div>
+    <div class="review-band"><span class="review-icon" aria-hidden="true">↻</span><div><strong>Controllo continuo + due revisioni strutturate</strong><p>Anomalie durante l'anno; riconciliazione completa a inizio anno scolastico e a fine anno.</p></div></div>
+  </section>
+
+  <section class="validation-section shell" aria-labelledby="validation-title">
+    <div class="validation-panel">
+      <div class="validation-copy"><p class="section-kicker">PRIMA DI CAMBIARE I SISTEMI</p><h2 id="validation-title">Cosa dobbiamo ancora verificare.</h2><p>Questa pagina rappresenta una <strong>proposta di architettura</strong>, non la configurazione già in produzione.</p></div>
+      <ul class="validation-list">
+        <li>Esportazioni e integrazioni reali di Spaggiari / SIDI</li>
+        <li>Compatibilità di LIM, notebook e software Windows</li>
+        <li>Posta ibrida, licenze e costo complessivo</li>
+        <li>Protezione dei dati, sicurezza e approvazioni</li>
+      </ul>
+      <div class="validation-footer"><a href="https://github.com/IIS-Severi-Correnti/ecosistema-digitale/blob/main/architettura/architettura-obiettivo.md" target="_blank" rel="noopener noreferrer">Approfondisci l'architettura <span aria-hidden="true">↗</span></a><a href="https://github.com/IIS-Severi-Correnti/ecosistema-digitale/issues" target="_blank" rel="noopener noreferrer">Partecipa alle verifiche <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="shell footer-inner"><div class="footer-brand"><span class="footer-logo">SC</span><span><strong>Ecosistema digitale</strong><small>Documentazione aperta · IIS Severi-Correnti</small></span></div><p>Proposta di lavoro · 12 ottobre 2026<br><a href="https://github.com/IIS-Severi-Correnti/ecosistema-digitale" target="_blank" rel="noopener noreferrer">Codice e documentazione su GitHub ↗</a></p></div></footer>
+</body>
+</html>

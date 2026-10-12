@@ -8,6 +8,10 @@ Progetto collaborativo per **documentare, valutare e migliorare** architettura i
 
 Rendere l'ecosistema scolastico comprensibile, sostenibile e documentato nel tempo. Il punto di partenza è un audit preliminare della directory Microsoft 365, ma il perimetro include l'infrastruttura digitale nel suo complesso.
 
+## Infografica pubblica
+
+La [pagina illustrativa dell'architettura](https://iis-severi-correnti.github.io/ecosistema-digitale/) spiega in modo visuale il modello **proposto**, non ancora approvato. Il sorgente è in [`docs/index.html`](docs/index.html). Per attivare GitHub Pages sul repository, consultare le [istruzioni di pubblicazione](docs/PAGES-README.md).
+
 ## Come leggere i documenti
 
 Ogni affermazione significativa va classificata come:
