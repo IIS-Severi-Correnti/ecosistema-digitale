@@ -1,0 +1,17 @@
+# Non registrare esportazioni amministrative o segreti
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+*_export.csv
+*users_*.csv
+/data/
+private/
+riservato/
+tmp/
+.DS_Store
