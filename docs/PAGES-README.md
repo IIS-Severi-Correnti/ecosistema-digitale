@@ -5,7 +5,10 @@ Questa cartella contiene una **pagina statica, responsiva, senza dipendenze este
 - `docs/index.html`: contenuto pubblico.
 - `docs/assets/styles.css`: presentazione, layout responsive e stampa.
 - `docs/assets/site.js`: pulsante di stampa.
-- `docs/assets/favicon.svg`: favicon.
+- `docs/assets/sc-logo.png`: logo Severi-Correnti e favicon, derivato dall'immagine fornita per il progetto.
+- `docs/assets/google-logo.jpg`: logo Google, derivato dall'immagine fornita per il progetto.
+- `docs/assets/microsoft-logo.png`: logo Microsoft, derivato dall'immagine fornita per il progetto.
+- `docs/assets/favicon.svg`: vecchia favicon non più utilizzata.
 
 ## Attivazione iniziale GitHub Pages (una tantum)
 
@@ -28,3 +31,7 @@ La pubblicazione potrebbe richiedere qualche minuto. Da quel momento, i commit s
 - La cartella `docs/` contiene anche altre note Markdown: la presenza di `.nojekyll` fa pubblicare i file statici senza una build Jekyll.
 
 La modalità di pubblicazione tramite branch è descritta dalla [documentazione ufficiale GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+## Identità visuale
+
+La pagina adotta la palette del logo scolastico: **arancione #F75F00** e **grigio #666666**, con sfondi bianchi e neutri. I loghi di Google e Microsoft sono riprodotti dai file forniti per il progetto, ottimizzati per la visualizzazione web e mantenuti cromaticamente distinti. Non sono inseriti servizi di font, immagini o analytics esterni.
